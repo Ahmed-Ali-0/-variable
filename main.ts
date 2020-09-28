@@ -1,5 +1,8 @@
 input.onButtonPressed(Button.A, function () {
-    word_Press_Buttun_A = 0
+    word_Press_Buttun_A += 1
+})
+input.onButtonPressed(Button.B, function () {
+    word_Press_Buttun_A += -4
 })
 // Created By: Ahmed Ali
 // 
@@ -7,4 +10,3 @@ input.onButtonPressed(Button.A, function () {
 // 
 // This program use  variable.
 let word_Press_Buttun_A = 0
-basic.showString("Created by Ahmed Ali")
